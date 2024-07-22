@@ -1,14 +1,12 @@
 {
     "compilerOptions": {
-        "lib": [
-            "ES5",
-            "ES6",
-            "DOM"
-        ],
-        "target": "ES5",
-        "module": "CommonJS",
-        "moduleResolution": "Node",
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true
-     }
+        "outDir": "./build",
+        "rootDir": "./src",
+        "target": "ES6",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    }
 }
